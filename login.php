@@ -4,70 +4,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu de Navegação</title>
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <title>Formulário de Login</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <style>
-        .logo {
-            max-height: 30px;
-        }
-    </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-default custom-navbar">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarNav">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+
+    <body>
+
+        <body>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom navbar-dark">
+                <div class="navbar-brand">
+                    <img src="img/logo.png" class="logo" alt="Logo">
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand" href="#"><img src="img/logo.png" class="logo" alt="Logo"></a>
-            </div>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="index.php">Nexxus Inc</a></li>
-                    <li><a href="#">Produtos</a></li>
-                    <li><a href="#">Diferenciais</a></li>
-                    <li><a href="login.php">Área do Cliente</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div class="container">
-        <form>
-            <div class="form-group">
-                <label for="exampleInputEmail1">Endereço de email</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                    placeholder="Seu email">
-                <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
-            </div>
-            <div class="form-group">
-                <label for="exampleInputPassword1">Senha</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
-            </div>
-            <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Clique em mim</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
-        </form>
-    </div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link font-weight-bold" href="index.hp">Nexxus Inc</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font-weight-bold" href="#">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font-weight-bold" href="#">Diferenciais</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font-weight-bold" href="#">Área do Cliente</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
 
-    <!-- JavaScript (Opcional) -->
-    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
 
-</body>
+
+
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-5">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>Login</h4>
+                            </div>
+                            <div class="card-body">
+                                <form>
+                                    <div class="form-group">
+                                        <label for="email">Email:</label>
+                                        <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+                                        <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="password">Senha:</label>
+                                        <input type="password" class="form-control" id="password" placeholder="Digite sua senha">
+                                    </div>
+                                    <button type="submit" class="btn btn-primary btn-block">Entrar</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+            <?php
+            $servername = "localhost";
+            $username = "root";
+            $password = "root";
+            $dbname = "nome_do_banco_de_dados";
+
+            $conn = new mysqli($servername, $username, $password, $dbname);
+
+            if ($conn->connect_error) {
+                die("Falha na conexão: " . $conn->connect_error);
+            }
+
+            if ($_SERVER["REQUEST_METHOD"] == "POST") {
+                $email = $_POST['email'];
+                $senha = $_POST['senha'];
+
+                $sql = "INSERT INTO tabela_usuarios (email, senha) VALUES ('$email', '$senha')";
+
+                if ($conn->query($sql) === TRUE) {
+                    echo "Registro inserido com sucesso.";
+                } else {
+                    echo "Erro: " . $sql . "<br>" . $conn->error;
+                }
+            }
+
+            $conn->close();
+            ?>
+
+        </body>
 
 </html>
