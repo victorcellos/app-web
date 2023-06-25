@@ -35,7 +35,7 @@
         </div>
     </nav>
 
-    <div class="carousel-custom">
+    <div class="carousel-custom ">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner" style="width: 80%; margin: auto;">
                 <div class="carousel-item active">
@@ -55,6 +55,39 @@
             </a>
         </div>
     </div>
+
+    <div class="carousel-custom banner-regua ">
+        <div class="banner-regua-content text-center ">
+            <div class="banner-regua-item d-inline-block mb-4">
+                <a href="https://www.mundoware.com.br/mundopoints" target="_blank">
+                    <img src="https://images.tcdn.com.br/img/img_prod/406359/1612813277_novo-mundopoints.png" loading="lazy" width="190" height="27" class="banner-regua-img" alt="Mundopoints">
+                </a>
+            </div>
+            <div class="banner-regua-item d-inline-block">
+                <img src="https://images.tcdn.com.br/img/img_prod/406359/1612813277_novo-garantia.png" loading="lazy" width="141" height="28" class="banner-regua-img" alt="Garantia">
+            </div>
+            <div class="banner-regua-item d-inline-block">
+                <img src="https://images.tcdn.com.br/img/img_prod/406359/1625445023_pix-boleto.png" loading="lazy" width="172" height="24" class="banner-regua-img" alt="Pagamento">
+            </div>
+            <div class="banner-regua-item d-inline-block">
+                <a href="https://www.mundoware.com.br/frete-gratis" target="_blank">
+                    <img src="https://images.tcdn.com.br/img/img_prod/406359/1612813278_novo-frete.png" loading="lazy" width="138" height="28" class="banner-regua-img" alt="Frete Grátis">
+                </a>
+            </div>
+            <div class="banner-regua-item d-inline-block">
+                <a href="https://www.mundoware.com.br/troca-e-devolucao-gratuita" target="_blank">
+                    <img src="https://images.tcdn.com.br/img/img_prod/406359/1612813279_novo-troca.png" loading="lazy" width="274" height="26" class="banner-regua-img" alt="Devolver e Troca">
+                </a>
+            </div>
+            <div class="banner-regua-item d-inline-block">
+                <a href="https://www.mundoware.com.br/venda-corporativa" data-gsc-widget='415831' target="_blank">
+                    <img src="https://images.tcdn.com.br/img/img_prod/406359/1612813279_novo-faturado.png" loading="lazy" width="136" height="26" class="banner-regua-img" alt="Interessado em comprar Faturado conosco? Clique aqui!">
+                </a>
+            </div>
+        </div>
+    </div>
+
+
 
     <!-- Scripts do Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
