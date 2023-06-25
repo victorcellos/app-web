@@ -24,7 +24,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link font-weight-bold" href="index.hp">Nexxus Inc</a>
+                            <a class="nav-link font-weight-bold" href="index.php">Nexxus Inc</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link font-weight-bold" href="#">Produtos</a>
@@ -71,11 +71,12 @@
             <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
             <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
             <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
             <?php
             $servername = "localhost";
             $username = "root";
-            $password = "root";
-            $dbname = "nome_do_banco_de_dados";
+            $password = "";
+            $dbname = "nexxt";
 
             $conn = new mysqli($servername, $username, $password, $dbname);
 
