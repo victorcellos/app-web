@@ -24,9 +24,9 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="#">Nexxus Inc</a></li>
-                    <li><a href="#">Produtos</a></li>
+                    <li><a href="produtos.php">Produtos</a></li>
                     <li><a href="#">Diferenciais</a></li>
-                    <li><a href="#">Área do Cliente</a></li>
+                    <li><a href="login.php">Área do Cliente</a></li>
                 </ul>
             </div>
         </div>
