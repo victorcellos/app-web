@@ -1,8 +1,67 @@
-.custom-navbar {
-    margin-bottom: 0;
+.navbar-nav {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
-.logo {
-    max-height: 40px; /* Ajuste o valor conforme necessário */
-}  
+.logo{
+    max-width: 55px;
+}
 
+.navbar-custom {
+    background-color: #16A4B7 !important;
+}
+  
+.carousel-custom {
+    background-color: #16A4B7;
+}
+
+body {
+    background-color: black;
+    color: white;
+  }
+
+  .container {
+    margin-top: 100px;
+  }
+
+  .card {
+    background-color: #212529;
+    border: none;
+  }
+
+  .card-header {
+    background-color: #343a40;
+    border-bottom: none;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .card-body {
+    padding: 20px;
+  }
+
+  .form-group label {
+    color: white;
+  }
+
+  .form-control {
+    background-color: #343a40;
+    color: white;
+    border-color: #343a40;
+  }
+
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+
+  .btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+  }
+
+  .btn-primary:focus,
+  .btn-primary.focus {
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+  }
