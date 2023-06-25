@@ -20,16 +20,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Nexxus Inc</a>
+                    <a class="nav-link font-weight-bold" href="#">Nexxus Inc</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Assinar Planos</a>
+                    <a class="nav-link font-weight-bold" href="#">Produtos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Diferenciais</a>
+                    <a class="nav-link font-weight-bold" href="#">Diferenciais</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Área do Cliente</a>
+                    <a class="nav-link font-weight-bold" href="#">Área do Cliente</a>
                 </li>
             </ul>
         </div>
