@@ -1,7 +1,18 @@
-.custom-navbar {
-    margin-bottom: 0;
+.navbar-nav {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
 }
 
-.logo {
-    max-height: 40px; /* Ajuste o valor conforme necessário */
-}  
+.logo{
+    max-width: 55px;
+}
+
+.navbar-custom {
+    background-color: #16A4B7 !important;
+}
+  
+.carousel-custom {
+    background-color: #16A4B7;
+}
+  
